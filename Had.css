@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #222, #555);
+    color: #fff;
+}
+
+.prihlaseni, .herni-stranka {
+    width: 100%;
+    height: 100vh;
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.prihlaseni {
+    display: flex; 
+    background-color: #1a1a2e;
+}
+
+.prihlaseni h1 {
+    font-size: 24px;
+    color: #ffcc00;
+    text-shadow: 2px 2px #000;
+}
+
+input, button {
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    max-width: 300px;
+    border: 2px solid #ffcc00;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+}
+
+input:focus, button:hover {
+    border-color: #ff9900;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff9900;
+    color: #000;
+}
+
+.herni-stranka {
+    background: #2a2d34;
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.HraciPole {
+    width: 595px; 
+    height: 595px; 
+    border: 4px solid #ffcc00;
+    background-color: #222;
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(17, 1fr);
+    gap: 2px; 
+    margin: 20px auto;
+    box-shadow: 0 0 20px #ffcc00;
+    padding: 5px;
+}
+
+.policko {
+    width: 100%;
+    height: 100%;
+    background-color: #2a2d34; 
+    border-radius: 3px;
+}
+
+.had {
+    background-color: #7602ab !important; 
+    box-shadow: inset 0 0 5px #7602ab, 0 0 10px #7602ab;
+}
+
+.hlava {
+    background-color: #d900ff !important; 
+    box-shadow: inset 0 0 10px #d900ff, 0 0 15px #d900ff;
+}
+
+.jablko {
+    background-color: #ffcc00 !important; 
+    box-shadow: 0 0 15px #ffcc00;
+    border-radius: 50%;
+}
+
+#skore {
+    font-size: 20px;
+    color: #00ff00;
+    margin-bottom: 10px;
+}
+
+#zobrazitTabulkuB {
+    background-color: #444;
+    color: #fff;
+    border: 2px solid #ffcc00;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px #ffcc00;
+    transition: 0.3s;
+    margin-top: 20px;
+    position: absolute;
+    left: 20px;
+    top: 100px;
+}
+
+
+
+#odhlaseniB {
+    background-color: #444;
+    color: #fff;
+    border: 2px solid #ffcc00;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px #ffcc00;
+    transition: 0.3s;
+    margin-top: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+}
+
+#restartButton  {
+    background-color: #444;
+    color: #fff;
+    border: 2px solid #ff0400;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px #ff0400;
+    transition: 0.3s;
+    margin-top: 20px;
+    position: absolute;
+    left: 20px;
+    bottom: 80px;
+}
+
+#restartButton:hover, #zobrazitTabulkuB:hover, #odhlaseniB:hover {
+    background-color: #ff9900;
+    color: #000;
+}
+
+
+
+
+
