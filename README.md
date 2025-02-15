@@ -1,4 +1,4 @@
-HraHad
+**HraHad**
 
 HraHad je jednoduchá verze klasické hry Snake, která navíc obsahuje žebříček nejlepších hráčů. Hra je vytvořená v jazyce PHP a skóre hráčů se ukládá do MySQL databáze.
 
