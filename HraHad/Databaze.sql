@@ -9,7 +9,7 @@ CREATE TABLE hraci (
 
 
 
-CREATE TABLE TopHraci (
+CREATE TABLE tophraci (
     id INT NOT NULL,
     time datetime NOT NULL default now(),
     score INT NOT NULL,
